@@ -1,36 +1,42 @@
 /*! base style */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    overflow-x: hidden;
-  }
-  
-  ul, ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-    color: #000;
-  }
-  h1,
-  h2,
-  h3,
-  h6,
-  p {
-    margin: 0;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  overflow-x: hidden;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+h1,
+h2,
+h3,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  padding-left: 8%;
+  padding-right: 8%;
+}
 /*! header start */
 .header {
   width: 100%;
   height: 60px;
-  background-color: #27272B;
+  background-color: #27272b;
   position: absolute;
   top: 0;
   opacity: 0.8;
@@ -51,14 +57,15 @@
 /*! body-main start */
 body {
   min-height: 87vh;
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, rgb(230, 218, 218), rgb(39, 64, 70)) repeat scroll 0% 0%;
+  background: rgba(0, 0, 0, 0)
+    linear-gradient(to right, rgb(230, 218, 218), rgb(39, 64, 70)) repeat scroll
+    0% 0%;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
 }
 .home {
-
 }
 /*! body-main end */
 
@@ -66,10 +73,6 @@ body {
 .footer {
   width: 100%;
   height: 32px;
-  background-color: #27272B;
+  background-color: #27272b;
 }
 /*! footer end */
-
-
-
-
