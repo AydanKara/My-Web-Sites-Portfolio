@@ -54,7 +54,7 @@ p {
 
 /*! header end */
 
-/*! body-main start */
+/*! main start */
 body {
   min-height: 87vh;
   background: rgba(0, 0, 0, 0)
@@ -65,9 +65,44 @@ body {
   display: flex;
   align-items: center;
 }
-.home {
+.websites-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 20px;
+  row-gap: 20px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 150px;
+  
 }
-/*! body-main end */
+.websites-box-item {
+  width: 330px;
+  height: 180px;
+  margin: 10px;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid black;
+}
+.item-1 {
+  background-image: url(./img/websites/cars-website.png);
+}
+.item-2 {
+  background-image: url(./img/websites/demo-website.png);
+}
+.item-3 {
+  background-image: url(./img/websites/e-commerce.png);
+}
+.item-4 {
+  background-image: url(./img/websites/food-website.png);
+}
+.item-5 {
+  background-image: url(./img/websites/movies-websites.png);
+}
+.item-6 {
+  background-image: url(./img/websites/news-homepage.png);
+}
+/*! main end */
 
 /*! footer start */
 .footer {
