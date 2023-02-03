@@ -133,6 +133,9 @@ p {
     position: unset;
     bottom: unset;
   }
+  .footer .icons i {
+    color: white;
+  }
 }
 
 /* responsive end */
