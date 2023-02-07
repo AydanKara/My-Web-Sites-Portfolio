@@ -5,6 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  transition: .3s ease all;
 }
 
 body {
@@ -74,6 +75,9 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.websites-box-frame:hover {
+  box-shadow: 0px 0px 20px 5px rgba(0,0,0,1);
 }
 .websites-box-item {
   width: 330px;
