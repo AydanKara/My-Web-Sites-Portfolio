@@ -64,8 +64,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  column-gap: 20px;
-  row-gap: 20px;
+  column-gap: 30px;
+  row-gap: 30px;
   flex-wrap: wrap;
   margin-top: 30px;
 }
@@ -130,7 +130,6 @@ p {
 .footer .icons i {
   margin: 2px;
   font-size: 18px;
-  transition: .3s ease all;
 }
 .footer .icons i:hover {
   color: white;
