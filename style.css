@@ -90,9 +90,10 @@ p {
   border: 1px solid #fff;
 }
 .websites-box-frame strong{
+  font-size: 13px;
   color: #fff;
   padding-bottom: 10px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 .item-1 {
