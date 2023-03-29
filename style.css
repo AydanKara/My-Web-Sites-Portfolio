@@ -124,6 +124,7 @@ p {
 
 /*! footer start */
 .footer {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,8 +134,6 @@ p {
   background-color: #27272b;
   opacity: 0.8;
   color: white;
-  position: absolute;
-  bottom: 0;
 }
 .footer .icons i {
   margin: 2px;
